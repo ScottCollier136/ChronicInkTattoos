@@ -4,7 +4,6 @@ export function encryptCaesar(inputString, key) {
     var myChar = "";
     var encryptedString = "";
 
-
     for (i = 0; i < inputString.length; i++){
 
         myChar = inputString[i];
