@@ -6,7 +6,6 @@ export function areParenthesesBalanced(inputString) {
 
 	for(i=0; i<inputString.length; i++){
 
-
 		// The description says only describes parenthesis type brackets as mattering, so I won't worry about {} or []
 		// It also says there can be other characters, which is why I'll check them individually
 		if((inputString[i] == '(') || (inputString[i] == ')')){
@@ -27,7 +26,6 @@ export function areParenthesesBalanced(inputString) {
 			}
 		}
 	}
-
 
 	if(myStack.length == 0){
 		return true;
